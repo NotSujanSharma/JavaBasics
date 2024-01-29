@@ -1,2 +1,16 @@
-# learning-java
-This is junk repos, I just keep what i learnt in java in this repos
+# Java Basics
+To compile: 
+```
+javac <filename.java>
+```
+
+To run:
+```
+java <className>
+```
+
+example:
+```
+javac Hangman.java
+java Hangman
+```

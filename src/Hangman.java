@@ -3,7 +3,7 @@ import java.util.Set;
 import java.util.HashSet;
 
 public class Hangman {
-    private static String word = "programming"; // The word to guess
+    private static String word = "programming";
     private static String hiddenWord = new String(new char[word.length()]).replace("\0", "_");
     private static int count = 0;
 
@@ -77,7 +77,6 @@ public class Hangman {
             System.out.println("___|___");
             System.out.println();
         }
-        // ... additional hangman states
         if (count == 4) {
             System.out.println("GAME OVER!");
             System.out.println("   |--------|");
